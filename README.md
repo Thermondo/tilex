@@ -15,6 +15,16 @@ project.
 We originally implemented Tilex as
 [_hr-til_](https://github.com/hashrocket/hr-til), a Ruby on Rails app.
 
+
+### Thermondo fork
+
+Our default branch is called `thermondo`. It's the main branch with our local
+adaptations and should be used for deployment and as the basis for changes.
+
+`master` is tracking upstream master and will regularly be merged into our
+default branch.
+
+
 ### Installation
 
 If you are creating your own version of the site,

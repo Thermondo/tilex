@@ -30,6 +30,15 @@
       <%= select f, :channel_id, @channels, prompt: "" %>
     </dd>
   </dl>
+
+  <!-- Thermondo addition begin -->
+  <p style="padding: 5px; margin: 30px 0px;">
+    <strong>Note:</strong>
+    Posts are public. Please keep the content generic and don't
+    post any confidential or business relevant information.
+  </p>
+  <!-- end Thermondo addition -->
+
   <%= submit "Submit" %>
   <%= link("cancel", to: "/") %>
 <% end %>
